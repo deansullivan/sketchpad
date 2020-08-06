@@ -1,0 +1,101 @@
+body{
+  background-color: #ff6666;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+#header{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#sketchbox{
+  display: inline-grid;
+  height: 450px;
+  width: 450px;
+  border-style: solid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  Background-color: white;
+  Opacity: 1;
+}
+
+.grid-item:hover { transform: scale(1.5);}
+
+#input{
+  padding: 16px 32px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  text-align: center;
+  resize: none;
+  font-size: 16px;
+}
+
+#btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+}
+
+#btn:hover{
+  background-color: transparent;
+  color: black;
+}
+
+#btn2 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#btn2:hover{ transform: scale(1.3);}
+
+#btn3 {
+  background-color: gray;
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#btn3:hover{ transform: scale(1.3);}
+
+#btn4 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#btn4:hover{ transform: scale(1.3);}
